@@ -9,4 +9,6 @@ In this repository i recreated the methods used in the paper "What do Deep Netwo
     1. Finetune combined models.
 1. Create reconstructed images with finetuned autoencoder and plot histogram to compare different autoencoders
 
+All code was created using Google Colabs with Python 3 and Tensorflow 2.0
+
 Weights for the models can be found here: https://drive.google.com/drive/folders/1rIyXKn9We3dr8zgq3lAWeuBVsfcfTBgf
