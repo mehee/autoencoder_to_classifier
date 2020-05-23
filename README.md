@@ -5,6 +5,7 @@ In this repository i recreated the methods used in the paper "What do Deep Netwo
 1. Train a autoencoder architecture.
 2. Finetune classifier for your dataset.
 3. Combine autoencoder and classifier.
+
   3.1 Freeze weights of encoder and classifier.
   3.2 Finetune combined models.
 4. Create reconstructions with finetuned autoencoder and plot histogram to compare different autoencoders
