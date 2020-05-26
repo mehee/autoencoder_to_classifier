@@ -3,12 +3,12 @@
 In this repository i recreated the methods used in the paper "What do Deep Networks Like to See?" https://arxiv.org/abs/1803.08337 
 
 1. Train a autoencoder architecture.
-1. Finetune classifier for your dataset.
+1. Finetune classifier.
 1. Combine autoencoder and classifier.
     1. Freeze weights of encoder and classifier.
-    1. Finetune combined models.
-1. Create reconstructed images with finetuned autoencoder and plot histogram to compare different autoencoders
+    1. Finetune combined decoder.
+1. Create reconstructed images with finetuned model and plot histogram to compare different autoencoders
 
-All code was created using Google Colabs with Python 3 and Tensorflow 2.0
+All code was created using Tensorflow 1.14.
 
-Weights for the models can be found here: https://drive.google.com/drive/folders/1rIyXKn9We3dr8zgq3lAWeuBVsfcfTBgf
+Weights must first be unzipped to be loaded.
